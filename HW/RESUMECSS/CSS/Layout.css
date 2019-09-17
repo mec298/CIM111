@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700&display=swap');
+
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  /* R:181 G:53 B:145 */
+  padding: 1em;
+  font-weight: 300;
+
+}
+
+h1{
+    color: rgb(181, 53, 145);
+}
+#name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h2{
+    color: rgb(181, 53, 145);
+}
+h3{
+    color: rgb(181, 53, 145);
+    font-weight: 400;
+}
+#personalinfo{
+  text-align: center;
+  color: rgb(134, 193, 246);
+}
+.boxed {
+border-left-style: solid;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom: solid;
+border-width: 40px;
+border-color: rgb(134, 193, 246);
+}
+
+a{
+color: rgb(134, 193, 246);
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(181, 53, 145);
+}
+
+a:visited {
+color: rgb(134, 193, 246);
+}
+
+td{
+
+text-align: left;
+color: rgb(0, 0, 0);
+}
