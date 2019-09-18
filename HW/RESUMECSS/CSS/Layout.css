@@ -5,16 +5,10 @@ body{
   /* R:181 G:53 B:145 */
   padding: 1em;
   font-weight: 300;
-
 }
 
 h1{
     color: rgb(181, 53, 145);
-}
-#name {
-    text-align: center;
-    font-weight: 400;
-    font-size: 40px;
 }
 
 h2{
@@ -24,8 +18,14 @@ h2{
 h3{
     color: rgb(181, 53, 145);
     font-weight: 400;
-
 }
+
+#name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
 #personalinfo{
   text-align: center;
   color: rgb(134, 193, 246);
@@ -53,6 +53,7 @@ border-left-width: 40px;
 border-top-width: 20px;
 border-bottom-width: 20px;
 border-color: rgb(134, 193, 246);
+padding: 20px;
 }
 
 #boxC {
@@ -65,6 +66,7 @@ border-left-width: 40px;
 border-top-width: 20px;
 border-bottom-width: 10px;
 border-color: rgb(134, 193, 246);
+padding: 20px;
 }
 
 .BoxD {
@@ -77,6 +79,7 @@ border-left-width: 40px;
 border-top-width: 10px;
 border-bottom-width: 10px;
 border-color: rgb(134, 193, 246);
+padding: 20px;
 }
 
 #BoxE {
@@ -89,6 +92,7 @@ border-left-width: 40px;
 border-top-width: 10px;
 border-bottom-width: 20px;
 border-color: rgb(134, 193, 246);
+padding: 20px;
 }
 
 #BoxF {
@@ -101,15 +105,27 @@ border-left-width: 40px;
 border-top-width: 20px;
 border-bottom-width: 40px;
 border-color: rgb(134, 193, 246);
+padding: 20px;
+}
+
+#pdflink{
+  text-align: center;
+  color: rgb(181, 53, 145);
+  font-size: 25px;
 }
 
 
+  .assocsoft{
+    text-indent: 40px;
+  }
+
+
   .company {
-    text-indent: 40px
+    text-indent: 30px
   }
 
   .position {
-    text-indent: 50px
+    text-indent: 40px
   }
 
   .dates {
@@ -117,31 +133,41 @@ border-color: rgb(134, 193, 246);
   }
 
   .jobdesc {
-    text-indent: 60px
+    /* text-indent: 60px; */
+    margin-left: 40px;
+  }
+
+  .schoolinfo {
+    margin-left: 40px;
+  }
+
+  table {
+    margin-left: 60px;
   }
 
 
-  #pdflink{
-    text-align: center;
-    color: rgb(181, 53, 145);
-    font-size: 25px;
-
-  }
 a{
 color: rgb(134, 193, 246);
 text-decoration: none;
+}
+
+a:visited {
+/* color: rgb(134, 193, 246); */
+color: rgb(181, 53, 145);
 }
 
 a:hover {
 color: rgb(181, 53, 145);
 }
 
-a:visited {
-color: rgb(134, 193, 246);
-}
 
 td{
-
 text-align: left;
 color: rgb(0, 0, 0);
+}
+
+td span{
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 10px;
 }
