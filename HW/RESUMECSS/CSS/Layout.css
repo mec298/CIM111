@@ -19,24 +19,114 @@ h1{
 
 h2{
     color: rgb(181, 53, 145);
+    text-indent: 20px;
 }
 h3{
     color: rgb(181, 53, 145);
     font-weight: 400;
+
 }
 #personalinfo{
   text-align: center;
   color: rgb(134, 193, 246);
 }
-.boxed {
+
+#boxA {
 border-left-style: solid;
 border-right-style: solid;
 border-top-style: solid;
 border-bottom: solid;
-border-width: 40px;
+border-right-width: 40px;
+border-left-width: 40px;
+border-top-width: 40px;
+border-bottom-width: 20px;
 border-color: rgb(134, 193, 246);
 }
 
+.BoxB {
+border-left-style: solid;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom: solid;
+border-right-width: 40px;
+border-left-width: 40px;
+border-top-width: 20px;
+border-bottom-width: 20px;
+border-color: rgb(134, 193, 246);
+}
+
+#boxC {
+border-left-style: solid;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom: solid;
+border-right-width: 40px;
+border-left-width: 40px;
+border-top-width: 20px;
+border-bottom-width: 10px;
+border-color: rgb(134, 193, 246);
+}
+
+.BoxD {
+border-left-style: solid;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom: solid;
+border-right-width: 40px;
+border-left-width: 40px;
+border-top-width: 10px;
+border-bottom-width: 10px;
+border-color: rgb(134, 193, 246);
+}
+
+#BoxE {
+border-left-style: solid;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom: solid;
+border-right-width: 40px;
+border-left-width: 40px;
+border-top-width: 10px;
+border-bottom-width: 20px;
+border-color: rgb(134, 193, 246);
+}
+
+#BoxF {
+border-left-style: solid;
+border-right-style: solid;
+border-top-style: solid;
+border-bottom: solid;
+border-right-width: 40px;
+border-left-width: 40px;
+border-top-width: 20px;
+border-bottom-width: 40px;
+border-color: rgb(134, 193, 246);
+}
+
+
+  .company {
+    text-indent: 40px
+  }
+
+  .position {
+    text-indent: 50px
+  }
+
+  .dates {
+    text-indent: 20px
+  }
+
+  .jobdesc {
+    text-indent: 60px
+  }
+
+
+  #pdflink{
+    text-align: center;
+    color: rgb(181, 53, 145);
+    font-size: 25px;
+
+  }
 a{
 color: rgb(134, 193, 246);
 text-decoration: none;
