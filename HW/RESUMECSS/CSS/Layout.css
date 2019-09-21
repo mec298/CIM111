@@ -121,31 +121,30 @@ padding: 20px;
     margin-right: auto;
 }
 
-
-  .assocsoft{
-    text-indent: 40px;
+.assocsoft{
+  text-indent: 40px;
   }
 
 
-  .company {
-    text-indent: 30px
+.company {
+  text-indent: 30px
   }
 
-  .position {
-    text-indent: 40px
+.position {
+  text-indent: 40px
   }
 
-  .dates {
-    text-indent: 20px
+.dates {
+  text-indent: 20px
   }
 
-  .jobdesc {
+.jobdesc {
     /* text-indent: 60px; */
-    margin-left: 40px;
+  margin-left: 40px;
   }
 
-  .schoolinfo {
-    margin-left: 40px;
+.schoolinfo {
+  margin-left: 40px;
   }
 
   table {
@@ -178,4 +177,16 @@ td span{
   font-size: 20px;
   font-weight: 900;
   line-height: 10px;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+h1 {
+  animation: fadeOut 4s infinite;
 }
