@@ -1,0 +1,123 @@
+
+
+
+
+  header {
+    background-color: green;
+    width: 920px;
+    height: auto;
+    /* height: 100px; */
+    padding: 20px 20px 20px 20px;
+      /* top,right,bottom,left */
+
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+
+    margin: 10px auto 30px auto;
+    margin: 0 auto;
+      /* top and bottom, left and right */
+    margin-top: -10px;
+  }
+
+  main {
+    background-color: yellow;
+    width: 910px;
+    padding: 20px;
+      /* add 20px to top,right,left,bottom to inner spacing */
+      /* same as padding-top: 20px, padding-bottom: 20px, padding-left: 20px; padding-right: 20px */
+    height: auto;
+    /* instead of seeting to height: 100px; set heigh to AUTO */
+
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(0,127,0);
+
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+      /* Margin adjust spacing around the container, setting left and right to auto, centers container */
+  }
+
+  footer{
+      background-color: green;
+      width: 960px;
+      height: 100px;
+
+      margin: 0 auto;
+      /* anytime you set the margin to auto, you need to have a set width dimension */
+  }
+
+  nav{
+    background-color: lightblue;
+    width: 400px;
+    margin: 0 auto;
+    /* center nav within container */
+  }
+
+  nav ul{
+
+
+  }
+  nav ul li{
+    list-style: none;
+    /* removes glyphs */
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    /* makes box bigger */
+  }
+
+  nav ul li a{
+    text-decoration: none;
+      /* removes underline */
+    font-size: 20px;
+    color: black;
+  }
+
+  nav ul li:hover{
+    background-color: white;
+  }
+
+  #grid1 {
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 200px 580px;
+    grid-column-gap: 20px;
+      }
+
+  #grid2 {
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 390px 390px;
+    grid-column-gap: 20px;
+      }
+
+#grid2 img{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#hobbies {
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+}
+
+#hobbies img {
+  width: 520px;
+
+}
