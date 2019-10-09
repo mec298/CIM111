@@ -1,0 +1,94 @@
+@import "desktophw.css";
+
+
+    header {
+      width: 420px;
+    }
+
+    main {
+      width: 420px;
+    }
+
+    footer {
+      width: 420px;
+    }
+
+
+    nav {
+      width: 350px;
+    }
+
+    nav ul{
+      margin-left: -20px;
+    }
+
+    nav ul li {
+      display: block;
+      text-align: center;
+    }
+
+    #about{
+      width: 380px;
+      display: block;
+      text-align: center;
+    }
+
+    #care{
+      width: 380px;
+      display: block;
+      /* text-align: center; */
+    }
+
+    #care section img{
+
+      width: 185px;
+    }
+
+    #care ul{
+      width: 50px;
+      margin:0 auto;
+    }
+
+    #care1 {
+      width: 380px;
+      /* text-align: center; */
+    }
+
+    #feeding{
+      width: 380px;
+      display: block;
+      text-align: center;
+    }
+
+    #feeding1 {
+      width: 380px;
+      text-align: center;
+    }
+
+    #grooming1 {
+      width: 380px;
+      display: block;
+      text-align: center;
+    }
+
+    #grooming {
+      width: 380px;
+      display: block;
+      text-align: center;
+    }
+
+    #grooming2 {
+      width: 380px;
+      display: block;
+      text-align: center;
+    }
+
+    #grooming img{
+      width: 150px;
+      height: 100px;
+    }
+
+    #grooming2 img{
+        width: 150px;
+        height: 100px;
+      }
