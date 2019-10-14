@@ -2,15 +2,15 @@
 
 
     header {
-      width: 420px;
+      width: 460px;
     }
 
     main {
-      width: 420px;
+      width: 460px;
     }
 
     footer {
-      width: 420px;
+      width: 460px;
     }
 
 
@@ -45,12 +45,13 @@
     }
 
     #care ul{
-      width: 50px;
+      width: 330px;
       margin:0 auto;
     }
 
     #care1 {
       width: 380px;
+      height: 870px;
       /* text-align: center; */
     }
 
@@ -62,6 +63,7 @@
 
     #feeding1 {
       width: 380px;
+      height: 1000px;
       text-align: center;
     }
 
@@ -94,5 +96,6 @@
       }
 
       .carecare img {
-        width: 50px;
+        width: 122px !important;
+        margin: 0 auto;
       }

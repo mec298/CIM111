@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700&display=swap');
 
-
   header {
     background-color: #f8ca9d;
     width: 910px;
@@ -25,13 +24,14 @@
     margin-right: auto;
     margin-bottom: 20px;
     margin-left: auto;
-
   }
+
   body{
     font-family: 'Libre Franklin', sans-serif;
     /* R:181 G:53 B:145 */
     font-weight: 300;
   }
+
   footer{
       background-color: green;
       width: 960px;
@@ -46,6 +46,10 @@
   }
 
   h1{
+    text-align: center;
+  }
+
+  h2{
     text-align: center;
   }
 
@@ -87,7 +91,7 @@
 
   #care1 {
     width: 835px;
-    height: auto;
+    height: 460px;
     border-style: solid;
     border-color: #fa6e4f;
     border-width: 20px;
@@ -105,13 +109,11 @@
 
       #care img {
         width: 100px;
-        
-
       }
 
 #feeding1 {
     width: 835px;
-    height: auto;
+    height: 385px;
     border-style: solid;
     border-color: #fa6e4f;
     border-width: 20px;
@@ -175,5 +177,4 @@
       height: auto;
       background-color: #f8ca9d;
       text-align: center;
-
     }
