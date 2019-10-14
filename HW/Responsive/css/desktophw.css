@@ -87,7 +87,7 @@
 
   #care1 {
     width: 835px;
-    height: 400px;
+    height: auto;
     border-style: solid;
     border-color: #fa6e4f;
     border-width: 20px;
@@ -104,13 +104,14 @@
       }
 
       #care img {
-        width: 80px;
+        width: 100px;
+        
 
       }
 
 #feeding1 {
     width: 835px;
-    height: 400px;
+    height: auto;
     border-style: solid;
     border-color: #fa6e4f;
     border-width: 20px;
@@ -132,7 +133,7 @@
 
   #grooming1 {
       width: 835px;
-      height: 560px;
+      height: auto;
       border-style: solid;
       border-color: #fa6e4f;
       border-width: 20px;
