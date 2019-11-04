@@ -3,4 +3,31 @@
 body{
   font-family: 'Libre Franklin', sans-serif;
   /* R:181 G:53 B:145 */
-  font-weight: 300;
+  font-weight: 300;}
+
+img{
+  width: 300px;
+}
+main {
+  background-color: #FAF3E7;
+  width: 910px;
+  padding: 20px;
+  height: auto;
+  border-width: 5px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+#mainpic{
+  width: 600px;
+}
+
+#main{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+
+}
