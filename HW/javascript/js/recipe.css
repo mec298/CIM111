@@ -13,11 +13,13 @@ main {
   width: 910px;
   padding: 20px;
   height: auto;
-  border-width: 5px;
   margin-top: 10px;
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
+  border-style: solid;
+  border-color: #f6d7d4;
+  border-width: 40px;
 }
 
 #mainpic{
@@ -28,16 +30,18 @@ main {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 30px;
 
 }
 
 #Ingredientslist {
   background-color: #88D1F1;
+  color: #FFFFFF;
 }
 
 #Preparationlist{
   background-color: #88D1F1;
+  color: #FFFFFF;
 }
 
 #Preparation {
@@ -58,4 +62,17 @@ main {
   text-align: center;
   font-size: 50px;
 
+}
+
+#zoom{
+  color: #2F639D;
+}
+
+#title{
+  color: #6BA259;
+}
+
+#credits{
+  color: #6BA259;
+  
 }

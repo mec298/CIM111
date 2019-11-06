@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>Fudgy Brownies</title>
     <style media="screen">
-
     </style>
     <link rel="stylesheet" href="js/recipe.css">
+    <link rel="stylesheet" href="js/chocolat.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body>
     <header>
@@ -14,11 +14,8 @@
     </header>
     <main>
       <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
-      <script src="jquery.fittext.js"></script>
-      <script src="circletype.min.js"></script>
 
-
-      <h1 id="title">Fudgy Brownies</h1>
+      <h1 id="title">FUDGY BROWNIES</h1>
 
 
       <section id="main">
@@ -63,26 +60,50 @@
     </ol>
   </section>
 
-  <section>
-    <h2 id="pictures">Pictures</h2>
-    <img src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" alt="placeholder">
-    <img src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" alt="placeholder">
-    <img src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" alt="placeholder">
-    <img src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" alt="placeholder">
-  </section>
+<h2 id="pictures">Images</h2>
+<section>
+  <div class="chocolat-parent" data-chocolat-title="set title">
+    <a class="chocolat-image" href="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" title="p1">
+        <img width="100" src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" />
+    </a>
+    <a class="chocolat-image" href="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" title="p2">
+        <img width="100" src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" />
+    </a>
+    <a class="chocolat-image" href="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" title="p3">
+        <img width="100" src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png"/>
+    </a>
+    <a class="chocolat-image" href="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" title="p4">
+        <img width="100" src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" />
+    </a>
+    <a class="chocolat-image" href="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" title="p5">
+        <img width="100" src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" />
+    </a>
+    <a class="chocolat-image" href="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" title="p6">
+        <img width="100" src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png"/>
+</div>
+</section>
+
+<section id="credits">
+  <h1>By Maria Eugenia Cisneros</h1>
+</section>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="jquery.fittext.js"></script>
+  <script src="circletype.min.js"></script>
+  <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+
 
   <script type="text/javascript">
     $(document).ready(function(){
 
 //PLUGINS
-      $("#title").fitText(1.2);
+      $("#title").fitText(1.5);
 
-      $("#title").CircleType(document.getElementById('title'))
-  .radius(384);
+      new CircleType(document.getElementById('title'))
+  .radius(500);
 
-
+    $('.chocolat-parent').Chocolat();
 
 
 //NORMAL JQUERY
@@ -112,16 +133,11 @@
        $("#zoom").show();
     });
 
-      $("#zoom").click(function(){
+      $("#zoom").hover(function(){
         $("#addinfo").html("This site is Visually-impaired friendly, to get the ingredients list or preparation steps to enlarge, just double click on them!");
       });
 
-
-
     });
-
-
-
 
 
   </script>
@@ -130,12 +146,4 @@
 
 </body>
 </main>
-
-
-
-
-
-
-
-
 </html>
