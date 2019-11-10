@@ -22,8 +22,14 @@ main {
   border-width: 40px;
 }
 
+#title2 {
+  text-align: center;
+  color: #FF0080;
+}
+
 #mainpic{
   width: 600px;
+
 }
 
 #main{
@@ -74,5 +80,6 @@ main {
 
 #credits{
   color: #6BA259;
-  
+  text-decoration: none;
+
 }
