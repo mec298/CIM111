@@ -26,6 +26,7 @@ nav{
   background-color: var(--yyellow);
   width: 800px;
   margin: 0 auto;
+  border-radius: 12px;
 }
 
 nav ul li{
@@ -90,33 +91,42 @@ h1{
 #who{
   width: 835px;
   height: auto;
+  background: var(--ppink);
+  border-radius: 15px;
+  padding: 10px;
+
 }
 
 #how{
   width: 835px;
   height: auto;
+  background: var(--ppink);
 }
 
 #Services{
   width: 835px;
   height: auto;
+  background: var(--ppink);
 }
 
 #features{
   width: 835px;
-  height: 460px;
+  height: auto;
   display: grid;
   grid-template-rows: 100px 100px;
   grid-template-columns: 100px 100px 100px 100px;
-  grid-column-gap: 20px;
+  grid-column-gap: 50px;
+  background: var(--ppink);
 }
 
 #reviews{
     width: 835px;
     height: auto;
+    background: var(--ppink);
   }
 
 #stats{
     width: 835px;
     height: auto;
+    background: var(--ppink);
     }

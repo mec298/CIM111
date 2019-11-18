@@ -12,6 +12,11 @@ footer {
   width: 460px;
 }
 
+body{
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: var(--ppurple);
+}
 
 nav {
   width: 350px;
@@ -41,12 +46,11 @@ header *{
 
 }
 #signupmove{
-  margin-left: 0px;
+  margin-left: 170px;
 }
 
 #topmenu ul {
-  margin-left: -20px;]
-  '[]'
+  margin-left: -40px;
 }
 #topmenu ul li{
   list-style: none;
@@ -64,3 +68,41 @@ header *{
 #topmenu ul li:hover{
   background-color: var(--ppink);
 }
+
+#aboutus{
+  font-size: 40px;
+}
+
+#who{
+  width: 380px;
+  height: auto;
+}
+
+#how{
+  width: 380px;
+  height: auto;
+}
+
+#Services{
+  width: 380px;
+  height: auto;
+}
+
+#features{
+  width: 380px;
+  height: auto;
+  display: block;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-column-gap: 20px;
+}
+
+#reviews{
+    width: 380px;
+    height: auto;
+  }
+
+#stats{
+    width: 380px;
+    height: auto;
+    }
