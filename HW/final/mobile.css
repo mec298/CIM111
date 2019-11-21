@@ -83,6 +83,16 @@ header *{
   height: auto;
 }
 
+
+    #howitworksimg{
+      width: 380px;
+      height: 200px;
+      background-image: url("howitworksvertical.png");
+    
+      background-size: cover;
+      background-repeat: none;
+    }
+
 #services{
   width: 380px;
   height: auto;
