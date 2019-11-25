@@ -88,7 +88,7 @@ header *{
       width: 380px;
       height: 200px;
       background-image: url("howitworksvertical.png");
-    
+
       background-size: cover;
       background-repeat: none;
     }
@@ -96,6 +96,10 @@ header *{
 #services{
   width: 380px;
   height: auto;
+}
+
+#servicesgraphics{
+  display: inline-table;
 }
 
 #features{
