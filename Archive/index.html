@@ -5,7 +5,8 @@
     <title>PetGo About Us</title>
     <style media="screen">
     </style>
-    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 800px)">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 600px)">
     <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 600px)">
     <meta name="viewport" content="initial-scale=1", width=device-width>
   </head>
@@ -44,29 +45,32 @@
     <section id="how">
       <!-- <img id="how" src="howitworks.png" alt="how it works"> -->
       <div id="howitworksimg">
-
       </div>
+
     </section>
 
     <h1>Services</h1>
     <section id="services">
-      <section id="servicesgraphics">
-        <h3>Day Care</h3>
-        <h3>Drop-in Visits</h3>
-        <h3>Pet Hotel</h3>
-        <h3>House Sitting</h3>
-        <h3>Dog Walk</h3>
-        <img id="graphics" src="Asset 1.png" alt="caregivers house">
-        <img id="graphics" src="Asset 2.png" alt="drop-in visit">
-        <img id="graphics" src="Asset 3.png" alt="pet hotel">
-        <img id="graphics" src="Asset 4.png" alt="house sitting">
-        <img id="graphics" src="Asset 5.png" alt="walk">
-        <p>Daytime pet care in your sitter’s dog-friendly home</p>
-        <p>For check-ins and play dates</p>
-        <p>Perfect if you need overnight pet care for a couple of days</p>
-        <p>Great if you need overnight pet or house-sitting services</p>
-        <p>Whenever your dog needs a walk</p>
-      </section>
+      <div class="servicesgraphics">
+        <img src="Asset 17.png" id="17" alt="day care">
+        <img src="Asset 18.png" id="18" alt="day care">
+      </div>
+      <div class="servicesgraphics">
+        <img src="Asset 19.png" id="19" alt="drop-in visit">
+        <img src="Asset 20.png" id="20" alt="drop-in visit">
+      </div>
+      <div class="servicesgraphics">
+        <img src="Asset 14.png" id="14" alt="pet hotel">
+        <img src="Asset 15.png" id="15" alt="pet hotel">
+      </div>
+      <div class="servicesgraphics">
+        <img src="Asset 8.png" id="8" alt="house sitting">
+        <img src="Asset 9.png" id="9" alt="house sitting">
+      </div>
+      <div class="servicesgraphics">
+        <img src="Asset 10.png" id="10" alt="walk">
+        <img src="Asset 11.png" id="11" alt="walk">
+      </div>
     </section>
 
 
@@ -97,11 +101,22 @@
     </section>
 
     <h1>Stats</h1>
-    <section id="stats">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- <section id="stats"> -->
+      <img id="stats" src="stats.png" alt="stats">
 
     </section>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+       $("#services").children().each(function(index,element){
+         $(element.children[1]).hide();
+         $(element.children[0]).mouseenter(function() {$(element.children[1]).show()})
+         $(element.children[1]).mouseleave(function() {$(element.children[1]).hide()})
+       }
+     )
+    });
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152782714-1"></script>

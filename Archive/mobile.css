@@ -1,5 +1,3 @@
-@import "desktop.css";
-
 header {
   width: 460px;
 }
@@ -15,7 +13,7 @@ footer {
 body{
   padding-left: 50px;
   padding-right: 50px;
-  background-color: var(--ppurple); 
+  background-color: var(--ppurple);
 }
 
 nav {
@@ -33,18 +31,31 @@ nav ul li {
 
 #topmenu{
   width: 400px;
-  margin: 0 auto;
 }
 
 header img{
   height: 30px;
 }
 
-header *{
-  display: inline;
-  margin-top: 30px;
-
+#services{
+  width: 380px;
+  height: auto;
 }
+
+.servicesgraphics {
+  display: block;
+  text-align:center;
+}
+
+.servicesgraphics img {
+  /* float:center; */
+  height:150px;
+  padding-right:20px;
+}
+
+.servicesgraphics p {
+}
+
 #signupmove{
   margin-left: 170px;
 }
@@ -57,16 +68,7 @@ header *{
   display: inline-block;
   margin-right: 0px;
   padding: 0px;
-}
-
-#topmenu ul li{
-  text-decoration: none;
   font-size: 8px;
-  color: var(--wwhite);
-}
-
-#topmenu ul li:hover{
-  background-color: var(--ppink);
 }
 
 #aboutus{
@@ -83,22 +85,13 @@ header *{
   height: auto;
 }
 
-    #howitworksimg{
-      width: 380px;
-      height: 200px;
-      background-image: url("howitworksvertical.png");
-      background-size: cover;
-      background-repeat: none;
-    }
-
-#services{
-  width: 380px;
-  height: auto;
+#howitworksimg{
+  height: 570px;
+  background-image: url("howitworksvertical.png");
+  background-repeat: no-repeat;
 }
 
-#servicesgraphics{
-  display: inline-table;
-}
+
 
 #features{
   width: 380px;
@@ -110,11 +103,11 @@ header *{
 }
 
 #reviews{
-    width: 380px;
-    height: auto;
-  }
+  width: 380px;
+  height: auto;
+}
 
 #stats{
-    width: 380px;
-    height: auto;
-    }
+  width: 380px;
+  height: auto;
+}

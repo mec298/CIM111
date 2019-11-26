@@ -1,0 +1,102 @@
+
+body{
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: var(--ppurple);
+}
+
+nav{
+  width: 800px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+#topmenu{
+  width: 1000px;
+}
+
+header img{
+  height: 100px;
+}
+
+#services{
+  width: 835px;
+  height: auto;
+  display: grid;
+  grid-template-rows: 75px 70px 80px;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-column-gap: 20px;
+}
+
+.servicesgraphics img{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.servicesgraphics {
+  
+}
+
+
+#signupmove{
+  margin-left: 110px;
+}
+
+#topmenu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+h1{
+  color: var(--ppink);
+}
+
+#aboutus{
+  font-size: 50px;
+}
+
+#who{
+  width: 835px;
+  height: auto;
+}
+
+#how{
+  width: 835px;
+  height: auto;
+}
+
+#how img{
+  width: 90%;
+}
+
+#howitworksimg{
+  width: 800px;
+  height: 280px;
+  background-image: url("howitworks.png");
+  background-repeat: no-repeat;
+}
+
+#features{
+  width: 835px;
+  height: auto;
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-column-gap: 50px;
+}
+
+#reviews{
+  width: 835px;
+  height: auto;
+}
+
+#stats{
+  width: 835px;
+  height: auto;
+}

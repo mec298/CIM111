@@ -56,19 +56,34 @@ header img{
   height: 100px;
 }
 
-#servicesgraphics img{
+.servicesgraphics img{
   width: 70px;
   display: block;
   margin: 0 auto;
 }
 
-#servicesgraphics {
-display: grid;
+.servicesgraphics {
+height: auto;
+/* display: grid;
 grid-template-rows: 75px 70px 80px;
 grid-template-columns: 150px 150px 150px 150px 150px;
-grid-column-gap: 20px;
+grid-column-gap: 20px; */
 margin-top: 10px;
 text-align: center;
+}
+
+#services{
+  height: auto;
+  background: var(--rred);
+  color: var(--wwhite);
+  font-weight: 400;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#servicesgraphics {
+  margin-top: 10px;
+  text-align: center;
 }
 
 header *{
@@ -133,25 +148,10 @@ h1{
   width: 800px;
   height: 280px;
   background-image: url("howitworks.png");
-  background-repeat: no-repeat;
-}
-/* #howitworksimg{
-  width: 800px;
-  height: 280px;
-  background-image: url("howitworks.png");
   background-size: contain;
   background-repeat: none;
-} */
-
-#services{
-  width: 835px;
-  height: 250px;
-  background: var(--rred);
-  color: var(--wwhite);
-  font-weight: 400;
-  border-radius: 15px;
-  padding: 20px;
 }
+
 
 #features{
   width: 835px;
@@ -185,9 +185,4 @@ h1{
     font-weight: 400;
     border-radius: 15px;
     padding: 20px;
-
     }
-
-  #stats img{
-    width: 600px;
-  }
