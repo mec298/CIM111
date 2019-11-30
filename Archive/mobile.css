@@ -2,6 +2,36 @@ header {
   width: 460px;
 }
 
+#signupmove{
+  margin-left: 170px;
+}
+
+#topmenu ul {
+  margin-left: -40px;
+}
+#topmenu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 0px;
+  padding: 0px;
+  font-size: 8px;
+}
+
+#topmenu{
+  width: 400px;
+}
+
+header img{
+  height: 30px;
+}
+
+
+/* CHANGE */
+#fixed{
+  height:224px;
+}
+
+
 main {
   width: 460px;
 }
@@ -29,14 +59,6 @@ nav ul li {
   text-align: center;
 }
 
-#topmenu{
-  width: 400px;
-}
-
-header img{
-  height: 30px;
-}
-
 #services{
   width: 380px;
   height: auto;
@@ -53,22 +75,6 @@ header img{
   width: 150px;
 }
 
-
-
-#signupmove{
-  margin-left: 170px;
-}
-
-#topmenu ul {
-  margin-left: -40px;
-}
-#topmenu ul li{
-  list-style: none;
-  display: inline-block;
-  margin-right: 0px;
-  padding: 0px;
-  font-size: 8px;
-}
 
 #aboutus{
   font-size: 40px;

@@ -10,24 +10,39 @@
 
 header{
   position: fixed;
-  top: 0;
+  background: var(--ppurple);
+  top: 50px;
   width: 100%;
+}
+
+header #headercontent *{
+  display: inline;
+  align-items: center;
+}
+
+#topmenu{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+#fixed{
+  position: fixed;
   background: var(--ppurple);
 }
 
   .midnightHeader.default {
-    background: var(--ppurple);
-    color: black;
+    color: var(--rred);
   }
   .midnightHeader.yyellow {
-    background: var(--ppurple);
     color: var(--yyellow);
   }
   .midnightHeader.rred {
-    background: var(--ppurple);
     color: var(--rred);
   }
-
+  .midnightHeader.wwhite {
+    color: var(--wwhite);
+  }
 main{
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -67,14 +82,6 @@ nav ul li:hover{
   background-color: white;
 }
 
-#topmenu{
-  width: 1000px;
-  margin: 0 auto;
-}
-
-header img{
-  height: 100px;
-}
 
 .servicesgraphics img{
   width: 70px;
@@ -101,11 +108,6 @@ text-align: center;
   padding: 20px;
 }
 
-header *{
-  display: inline;
-  margin-top: 30px;
-  align-items: center;
-}
 #signupmove{
   margin-left: 110px;
 }
@@ -114,12 +116,8 @@ header *{
   display: inline-block;
   margin-right: 20px;
   padding: 5px;
-}
-
-#topmenu ul li{
   text-decoration: none;
   font-size: 25px;
-  color: var(--wwhite);
 }
 
 #topmenu ul li:hover{
