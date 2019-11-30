@@ -11,7 +11,7 @@
     <meta name="viewport" content="initial-scale=1", width=device-width>
   </head>
   <body>
-    <header>
+    <header id="fixed">
       <img id="logo" src="PetgoLogo.png" alt="Logo">
       <section id="topmenu">
         <ul>
@@ -23,6 +23,14 @@
         </ul>
     </section>
     </header>
+
+    <section data-midnight="yyellow">
+      <h1>A section with a dark background, so a white nav would look better here</h1>
+    </section>
+
+    <div data-midnight="rred">
+      <h1>A blue nav looks better here</h1>
+    </div>
 
     <h1 id="aboutus">About Us</h1>
       <nav>
@@ -76,36 +84,73 @@
 
     <h1>Features</h1>
     <section id="features">
+      <section id="safety">
+        <h2>Safety</h2>
       <ul>
-        <li>qwertyuiop</li>
-        <li>qwertyuiop</li>
+        <li>Background Checks</li>
+        <li>Caregiver / Facility vetting</li>
       </ul>
+      </section>
+
+      <section id="support">
+        <h2>Support</h2>
       <ul>
-        <li>qwertyuiop</li>
-        <li>qwertyuiop</li>
+        <li>Reservation Protection</li>
+        <li>24/7 support</li>
       </ul>
+      </section>
+
+      <section id="Reviews">
+        <h2>Reviews</h2>
       <ul>
-        <li>qwertyuiop</li>
-        <li>qwertyuiop</li>
+        <li>Verified Reviews</li>
+        <li>Client Testimonials</li>
       </ul>
+      </section>
+
+      <section id="Updates">
+        <h2>Updates</h2>
       <ul>
-        <li>qwertyuiop</li>
-        <li>qwertyuiop</li>
+        <li>Live Web Cam</li>
+        <li>Ongoing Updates </li>
+      </ul>
+      </section>
+
+      <section id="Booking">
+        <h2>Booking</h2>
+      <ul>
+        <li>Frictionless Booking</li>
+        <li>Easy Cancel & Reschedule</li>
       </ul>
     </section>
 
+    </section>
 
-    <h1>Reviews</h1>
+
+    <h1>What people are saying</h1>
     <section id="reviews">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div id="reviewsimg">
+      </div>
     </section>
 
     <h1>Stats</h1>
-    <!-- <section id="stats"> -->
-      <img id="stats" src="stats.png" alt="stats">
-
+    <section id="stats">
+    <div id="statsimg">
+    </div>
     </section>
 
+<!-- PLUGIN -->
+
+<script src="midnight.jquery.js"></script>
+<script>
+  // Start midnight
+  $(document).ready(function(){
+    // Change this to the correct selector for your nav.
+    $('header.fixed').midnight();
+  });
+</script>
+
+<!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
@@ -127,6 +172,7 @@
 
       gtag('config', 'UA-152782714-1');
     </script>
+
 
   </body>
 </html>

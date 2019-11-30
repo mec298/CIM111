@@ -8,6 +8,25 @@
   --wwhite: #EEE4D2;
 }
 
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--ppurple);
+}
+
+  .midnightHeader.default {
+    background: var(--ppurple);
+    color: black;
+  }
+  .midnightHeader.yyellow {
+    background: var(--ppurple);
+    color: var(--yyellow);
+  }
+  .midnightHeader.rred {
+    background: var(--ppurple);
+    color: var(--rred);
+  }
 
 main{
   font-family: 'Poppins', sans-serif;
@@ -15,6 +34,7 @@ main{
 }
 
 body{
+  padding-top: 150px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   padding-left: 100px;
@@ -79,11 +99,6 @@ text-align: center;
   font-weight: 400;
   border-radius: 15px;
   padding: 20px;
-}
-
-#servicesgraphics {
-  margin-top: 10px;
-  text-align: center;
 }
 
 header *{
@@ -158,7 +173,7 @@ h1{
   height: auto;
   display: grid;
   grid-template-rows: 100px 100px;
-  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px;
   grid-column-gap: 50px;
   background: var(--rred);
   color: var(--wwhite);
@@ -177,6 +192,15 @@ h1{
     padding: 20px;
   }
 
+  #reviewsimg{
+    width: 800px;
+    height: 280px;
+    background-image: url("reviews.png");
+    background-size: contain;
+    background-repeat: none;
+  }
+
+
 #stats{
     width: 835px;
     height: auto;
@@ -185,4 +209,27 @@ h1{
     font-weight: 400;
     border-radius: 15px;
     padding: 20px;
+    }
+
+
+#stats{
+      width: 835px;
+      height: auto;
+      background: var(--rred);
+      color: var(--wwhite);
+      font-weight: 400;
+      border-radius: 15px;
+      padding: 20px;
+    }
+
+#stats img{
+      width: 90%;
+    }
+
+#statsimg{
+    width: 800px;
+    height: 280px;
+    background-image: url("stats.png");
+    background-size: contain;
+    background-repeat: none;
     }

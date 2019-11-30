@@ -43,18 +43,17 @@ header img{
 }
 
 .servicesgraphics {
-  display: block;
+  display: inline-block;
   text-align:center;
 }
 
 .servicesgraphics img {
   /* float:center; */
-  height:150px;
   padding-right:20px;
+  width: 150px;
 }
 
-.servicesgraphics p {
-}
+
 
 #signupmove{
   margin-left: 170px;
@@ -91,12 +90,11 @@ header img{
   background-repeat: no-repeat;
 }
 
-
-
 #features{
   width: 380px;
-  height: auto;
+  height: 650px;
   display: block;
+  padding-left: 30px;
   grid-template-rows: 100px 100px;
   grid-template-columns: 100px 100px 100px 100px;
   grid-column-gap: 20px;
@@ -107,7 +105,21 @@ header img{
   height: auto;
 }
 
+#reviewsimg{
+  height: 450px;
+  background-image: url("reviewsvertical.png");
+  background-repeat: no-repeat;
+  background-position: 19px;
+}
+
 #stats{
   width: 380px;
   height: auto;
+}
+
+#statsimg{
+  height: 500px;
+  text-align: center;
+  background-image: url("statsvertical.png");
+  background-repeat: no-repeat;
 }
