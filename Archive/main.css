@@ -8,10 +8,10 @@
   --wwhite: #EEE4D2;
 }
 
+
 header{
   position: fixed;
   background: var(--ppurple);
-  top: 50px;
   width: 100%;
 }
 

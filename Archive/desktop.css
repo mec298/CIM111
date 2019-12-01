@@ -24,9 +24,8 @@ header img{
 #fixed{
   position: fixed;
   background: var(--ppurple);
-  top: 0;
   width: 100%;
-  height:224px;
+  height:150px;
 }
 
 #services{
