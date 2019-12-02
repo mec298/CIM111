@@ -1,5 +1,6 @@
 
 body{
+  padding-top: 150px;
   padding-left: 100px;
   padding-right: 100px;
   background-color: var(--ppurple);
@@ -20,19 +21,23 @@ nav ul li{
 header img{
   height: 100px;
 }
+header #headercontent *{
+  padding-top: 30px;
+  padding-left: 50px;
+}
 
 #fixed{
   position: fixed;
   background: var(--ppurple);
   width: 100%;
-  height:150px;
+  /* height:380px; */
 }
 
 #services{
   width: 835px;
-  height: 400px;
+  height: auto !important;
   display: grid;
-  grid-template-rows: 75px 70px 80px;
+  grid-template-rows: 1fr;
   grid-template-columns: 150px 150px 150px 150px 150px;
   grid-column-gap: 20px;
 }

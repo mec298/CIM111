@@ -13,6 +13,7 @@ header{
   position: fixed;
   background: var(--ppurple);
   width: 100%;
+  /* height: 400px; */
 }
 
 header #headercontent *{
@@ -21,15 +22,26 @@ header #headercontent *{
 }
 
 #topmenu{
-  width: 1000px;
   margin: 0 auto;
 }
 
+#topmenu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
 
-#fixed{
+#topmenu ul li:hover{
+  background-color: var(--ppink);
+}
+
+/* #fixed{
   position: fixed;
   background: var(--ppurple);
-}
+} */
 
   .midnightHeader.default {
     color: var(--rred);
@@ -49,7 +61,6 @@ main{
 }
 
 body{
-  padding-top: 150px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   padding-left: 100px;
@@ -110,18 +121,6 @@ text-align: center;
 
 #signupmove{
   margin-left: 110px;
-}
-#topmenu ul li{
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px;
-  padding: 5px;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-#topmenu ul li:hover{
-  background-color: var(--ppink);
 }
 
 h1{
