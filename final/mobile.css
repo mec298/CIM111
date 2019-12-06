@@ -119,6 +119,7 @@ nav ul li {
   height: 450px;
   background-image: url("reviewsvertical.png");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 19px;
 }
 
