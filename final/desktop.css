@@ -109,7 +109,7 @@ h1{
   width: 800px;
   height: 280px;
   background-image: url("Reviews.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: contain;
   padding-left: 37px;
 
