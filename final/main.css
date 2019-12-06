@@ -189,13 +189,13 @@ h1{
     padding: 20px;
   }
 
-  #reviewsimg{
+  /* #reviewsimg{
     width: 800px;
     height: 280px;
     background-image: url("Reviews.png");
     background-size: contain;
     background-repeat: none;
-  }
+  } */
 
 
 #stats{
